@@ -143,6 +143,18 @@ $text['label-zero_sp_touch']['de-at'] = "Zero-SP-Touch";
 $text['label-zero_sp_touch']['ar-eg'] = "";
 $text['label-zero_sp_touch']['he'] = "";
 
+$text['label-xml_directory']['en-us'] = "XML Directory";
+$text['label-xml_directory']['es-cl'] = "Directorio XML";
+$text['label-xml_directory']['pt-pt'] = "Diretório XML";
+$text['label-xml_directory']['fr-fr'] = "Annuaire XML";
+$text['label-xml_directory']['pt-br'] = "Diretório XML";
+$text['label-xml_directory']['pl'] = "Ksiażka telefoniczna XML";
+$text['label-xml_directory']['uk'] = "";
+$text['label-xml_directory']['sv-se'] = "Katalog";
+$text['label-xml_directory']['de-at'] = "Verzeichnis";
+$text['label-xml_directory']['ar-eg'] = "";
+$text['label-xml_directory']['he'] = "מדריך";
+
 $text['label-xml_phonebook']['en-us'] = "XML Phonebook";
 $text['label-xml_phonebook']['es-cl'] = "Agenda telefónica XML";
 $text['label-xml_phonebook']['pt-pt'] = "Agenda telefónica XML";
@@ -1401,6 +1413,16 @@ $text['label-device_description']['ro'] = "";
 $text['label-device_description']['de-at'] = "Beschreibung";
 $text['label-device_description']['ar-eg'] = "";
 $text['label-device_description']['he'] = "תאור";
+
+$text['label-device_status']['en-us'] = "Status";
+$text['label-device_status']['es-cl'] = "Estado";
+$text['label-device_status']['pt-pt'] = "Estado";
+$text['label-device_status']['fr-fr'] = "Statut";
+$text['label-device_status']['pt-br'] = "Estado";
+$text['label-device_status']['pl'] = "Status ";
+$text['label-device_status']['sv-se'] = "Status";
+$text['label-device_status']['uk'] = "Стан";
+$text['label-device_status']['de-at'] = "Status";
 
 $text['label-device']['en-us'] = "Device";
 $text['label-device']['es-cl'] = "Dispositivo";
