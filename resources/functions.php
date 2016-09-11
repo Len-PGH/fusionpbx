@@ -17,7 +17,7 @@
 
 	The Initial Developer of the Original Code is
 	Mark J Crane <markjcrane@fusionpbx.com>
-	Portions created by the Initial Developer are Copyright (C) 2008-2014
+	Portions created by the Initial Developer are Copyright (C) 2008-2016
 	the Initial Developer. All Rights Reserved.
 
 	Contributor(s):
@@ -27,7 +27,7 @@
 
 	if (!function_exists('software_version')) {
 		function software_version() {
-			return '4.1.0';
+			return '4.2.0';
 		}
 	}
 
@@ -247,14 +247,9 @@
 		function permission_exists($permission) {
 			//set default false
 				$result = false;
-			//search for the permission
-				if (count($_SESSION["permissions"]) > 0) {
-					foreach($_SESSION["permissions"] as $row) {
-						if ($row['permission_name'] == $permission) {
-							$result = true;
-							break;
-						}
-					}
+			//find the permission
+				if (is_array($_SESSION["permissions"]) && $_SESSION["permissions"][$permission] == true) {
+					$result = true;
 				}
 			//return the result
 				return $result;
